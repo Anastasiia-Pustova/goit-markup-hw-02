@@ -1,7 +1,9 @@
+/* ====== COMMON STYLES ====== */
+
 body {
     font-family: "Roboto", sans-serif;
     color:#434455;
-    background-color: #FFF;
+    background-color: #fafafa;
 }
 a{
     text-decoration: none;
@@ -13,7 +15,7 @@ ul, ol{
 button {
     cursor: pointer;
 }
-
+/* ====== HEADER STYLES ====== */
 .page-logo {
         font-weight: 700;
         font-size: 18px;
@@ -49,9 +51,12 @@ button {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+
 }
 .adress-link:hover,
 .adress-link:focus {
     color: #404bbf;
 }
+
+/* ====== HERO STYLES ====== */
+
