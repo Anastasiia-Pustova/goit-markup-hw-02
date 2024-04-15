@@ -1,7 +1,7 @@
 /* ====== COMMON STYLES ====== */
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto",  sans-serif;
     color:#434455;
     background-color: #ffffff;
 }
@@ -17,6 +17,7 @@ button {
 }
 /* ====== HEADER STYLES ====== */
 .page-logo {
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.7;
@@ -62,7 +63,6 @@ button {
 
 .section-hero {
     background-color: #2e2f42;
-    background-position: center;
 }
 
 .section-title {
@@ -70,14 +70,10 @@ button {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #ffffff;
 }
 
 .main-button {
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -152,18 +148,18 @@ color:#2e2f42;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.section-item {
+.section-three-item {
     background-color: #ffffff;
 }
     
-.section-item-tittle {
+.section-three-item-tittle {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.list-paragraph {
+.section-three-list-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -187,7 +183,7 @@ color:#2e2f42;
 
 }
 
-.logo-part {
+.footer-logo-part {
     color: #ffffff;
 }
 
