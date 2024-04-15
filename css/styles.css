@@ -69,10 +69,12 @@ color: #2e2f42;
 }
 
 .section-title {
+    
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
         color: #ffffff;
 }
 
@@ -113,34 +115,42 @@ color: #2e2f42;
 
 /* ====== SECTION THREE ====== */
 
-.section-two {
-background-color: #f4f4fd;
-}
-.section-two-tittle {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-color:#2e2f42;
-}
-.section-item {
-    background-color: #ffffff;
+
+.section-three {
+    background-color: #f4f4fd;
 }
 
-.section-item-tittle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-.list-paragraph {
-    font-size: 16px;
-    line-height: 1.5;
+.section-tittle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
-   
+
+.section-item {
+background-color: #ffffff;
+}
+.section-paragraph-tittel {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+ .section-paragraph-content {
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        }
+            
+
 
 /* ====== SECTION FOUR====== */
 
