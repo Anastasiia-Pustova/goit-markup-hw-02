@@ -20,16 +20,18 @@ button {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.7;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
         
+        
 }
 
-.logo-part {
-    color: #2e2f42;
+.logo-span {
+color: #2e2f42;
 }
+    
 
 .menu-link {
         font-weight: 500;
@@ -52,6 +54,7 @@ button {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        color: #434455;
 
 }
 .adress-link:hover,
@@ -59,7 +62,7 @@ button {
  color: #404bbf;
 }
 
-/* ====== HERO STYLES ====== */
+/* ====== SECTION ONE ====== */
 
 .section-hero {
     background-color: #2e2f42;
@@ -88,15 +91,19 @@ button {
     background-color: #404bbf;
 }
 
-/* ====== SECTION ONE====== */
-.section-one-tittle {
+/* ====== SECTION TWO====== */
+
+.section-two {
+    background-color: ffffff;
+}
+.section-paragraph-tittel {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.content-text{
+.section-paragraph-content {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -104,7 +111,7 @@ button {
     color: #434455;
 }
 
-/* ====== SECTION TWO====== */
+/* ====== SECTION THREE ====== */
 
 .section-two {
 background-color: #f4f4fd;
@@ -135,7 +142,7 @@ color:#2e2f42;
 }
    
 
-/* ====== SECTION THREE====== */
+/* ====== SECTION FOUR====== */
 
 .section-three {
     background-color: #ffffff;
