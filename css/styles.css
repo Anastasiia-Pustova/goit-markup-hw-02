@@ -15,22 +15,35 @@ ul, ol{
 button {
     cursor: pointer;
 }
-/* ====== HEADER STYLES ====== */
-.page-logo {
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        
-        
+
+/* ====== загальні стилі ====== */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+
 }
 
-.logo-span {
-color: #2e2f42;
-}
+/* ====== HEADER STYLES ====== */
+
+
+.header-logo .span-logo {
+    color: #2e2f42;
+} 
     
 
 .menu-link {
@@ -68,8 +81,7 @@ color: #2e2f42;
     background-color: #2e2f42;
 }
 
-.section-title {
-        font-weight: 700;
+.hero-title {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
@@ -94,18 +106,14 @@ color: #2e2f42;
 
 /* ====== SECTION TWO====== */
 
-.section-two {
-    background-color: #ffffff;
-}
-.section-paragraph-tittel {
+.benefits-titel {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.section-paragraph-content {
-    font-weight: 400;
+.benefits-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -115,25 +123,16 @@ color: #2e2f42;
 /* ====== SECTION THREE ====== */
 
 
-.section-three {
+.section-team {
     background-color: #F4F4FD;
 }
 
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 72px;
-}
 
-.section-item {
+
+.team-item {
 background-color: #ffffff;
 }
-.section-paragraph-title {
+.team-title {
     text-align: center;
     font-weight: 500;
     font-size: 20px;
@@ -141,40 +140,27 @@ background-color: #ffffff;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.team-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
  
             
 
 
 /* ====== SECTION FOUR====== */
-
-.section-four {
-    background-color: #ffffff;
-    }
-
-.section-four-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        text-align: center;
-        color: #2e2f42;
-}
-
-.section-four-item {
-    background-color: #ffffff;
-}
     
-.section-four-item-title {
+.portfolio-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2e2f42;
-
-        
+        color: #2e2f42;     
 }
-.section-four-list-paragraph {
+.portfolio-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -190,17 +176,7 @@ background-color: #ffffff;
 }
 
 
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.span-logo {
+.footer-logo .span-logo {
 color: #f4f4fd;
 }
 
