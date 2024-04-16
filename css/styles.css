@@ -154,29 +154,29 @@ background-color: #ffffff;
 
 /* ====== SECTION FOUR====== */
 
-.section-three {
+.section-four {
     background-color: #ffffff;
     }
 
-.section-three-title {
+.section-four-title {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.section-three-item {
+.section-four-item {
     background-color: #ffffff;
 }
     
-.section-three-item-tittle {
+.section-four-item-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.section-three-list-paragraph {
+.section-four-list-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
